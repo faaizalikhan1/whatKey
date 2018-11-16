@@ -1,0 +1,39 @@
+*{
+    overflow:hidden;
+  }
+  html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%
+  }
+  
+  .container{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+    background:lightblue;
+    
+    display:grid;
+    place-items:center;
+  }
+  
+  span{
+    position:relative;
+    z-index:9999;
+    font-size:15rem;
+    color:lightseagreen;
+  }
+  
+  p{
+    margin:0;
+    padding:0;
+    position:absolute;
+    font-size:30rem;
+    width:100%;
+    text-align:center;
+    color:coral;
+    z-index:0;
+    opacity:0.2;
+  }
